@@ -19,8 +19,8 @@ class User(BaseModel, Base):
         places = relationship("Place", backref="user")
         reviews = relationship("Review", backref="user")
     else:
-        email = ""
-        password = ""
+        email = "hb@gmail.com"
+        password = "12341234"
         first_name = ""
         last_name = ""
 
